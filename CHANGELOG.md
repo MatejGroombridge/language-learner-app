@@ -1,6 +1,11 @@
 # Changelog
 
 
+## v1.0.2 — 2026-07-09
+
+retrying build
+
+
 ## v1.0.1 — 2026-07-09
 
 Fix gradle issue

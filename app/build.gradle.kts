@@ -29,8 +29,8 @@ android {
         applicationId = "dev.matejgroombridge.argot"
         minSdk = 26          // Android 8.0+ (covers ~95% of devices, allows modern APIs)
         targetSdk = 35       // Android 15
-        versionCode = 3
-        versionName = "1.0.1"
+        versionCode = 4
+        versionName = "1.0.2"
     }
 
     signingConfigs {
