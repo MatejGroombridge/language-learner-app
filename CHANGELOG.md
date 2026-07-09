@@ -1,6 +1,11 @@
 # Changelog
 
 
+## v1.0.7 — 2026-07-09
+
+Updated release
+
+
 ## v1.0.6 — 2026-07-09
 
 alias change
