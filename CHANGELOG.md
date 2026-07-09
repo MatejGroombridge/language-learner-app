@@ -1,6 +1,11 @@
 # Changelog
 
 
+## v1.0.5 — 2026-07-09
+
+Alias updated again
+
+
 ## v1.0.4 — 2026-07-09
 
 Updated alias
