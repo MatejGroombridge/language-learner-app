@@ -31,6 +31,12 @@ jobs:
           echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > $RUNNER_TEMP/release.jks
           echo "KEYSTORE_PATH=$RUNNER_TEMP/release.jks" >> $GITHUB_ENV
 
+      - name: Extract Real Keystore Alias
+        run: |
+          echo "=== THE REAL ALIAS IS BELOW ==="
+          keytool -list -keystore /home/runner/work/_temp/release.jks -storepass "${{ secrets.KEYSTORE_PASSWORD }}" | grep "Alias name:" | sed 's/Alias name: //'
+          echo "==============================="
+
       # ── Build signed release APK ──────────────────────────────
       # The env var names below MUST match what app/build.gradle.kts reads in
       # its signingConfigs { create("release") { ... } } block.
