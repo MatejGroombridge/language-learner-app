@@ -1,6 +1,11 @@
 # Changelog
 
 
+## v1.0.3 — 2026-07-09
+
+Updated Alias Secret
+
+
 ## v1.0.2 — 2026-07-09
 
 retrying build
