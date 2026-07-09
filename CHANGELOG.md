@@ -1,6 +1,11 @@
 # Changelog
 
 
+## v1.0.1 — 2026-07-09
+
+Fix gradle issue
+
+
 ## v1.0.0 — 2026-07-09
 
 Initial functionality & design
