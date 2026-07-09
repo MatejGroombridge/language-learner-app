@@ -105,8 +105,8 @@ jobs:
           # Display name shown in the Groom Hub app. Edit per-app at bootstrap
           # time — leaving this as the auto-derived repo slug usually works,
           # but a curated DISPLAY_NAME reads better.
-          DISPLAY_NAME: "Argot"
-          DESCRIPTION:  "Argot — part of the personal app suite."
+          DISPLAY_NAME: "Triolingo"
+          DESCRIPTION:  "Triolingo — part of the personal app suite."
           CATEGORY:     "Personal"
           VC:           ${{ steps.meta.outputs.version_code }}
           VN:           ${{ steps.meta.outputs.version_name }}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Dark-mode splash matches the Liúlì dark background. -->
+    <!-- Dark-mode splash matches the Triolingo dark background. -->
     <color name="splash_background">#17130F</color>
 </resources>

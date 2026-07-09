@@ -65,7 +65,7 @@ Fix gradle issue
 
 Initial functionality & design
 
-All notable changes to Argot. Format roughly follows
+All notable changes to Triolingo. Format roughly follows
 [Keep a Changelog](https://keepachangelog.com). The most recent release is at
 the top. Each entry is consumed verbatim by the release pipeline and shown to
 users on the app's detail screen in the Groom Hub.

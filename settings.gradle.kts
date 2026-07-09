@@ -20,5 +20,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Argot"
+rootProject.name = "Triolingo"
 include(":app")
