@@ -30,6 +30,15 @@ jobs:
         run: |
           echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > $RUNNER_TEMP/release.jks
           echo "KEYSTORE_PATH=$RUNNER_TEMP/release.jks" >> $GITHUB_ENV
+          KEY_ALIAS=$(keytool -list -v \
+            -keystore "$RUNNER_TEMP/release.jks" \
+            -storepass "${{ secrets.KEYSTORE_PASSWORD }}" \
+            2>/dev/null | awk -F': ' '/Alias name:/{print $2; exit}')
+          if [ -z "$KEY_ALIAS" ]; then
+            echo "Unable to read key alias from keystore"
+            exit 1
+          fi
+          echo "KEY_ALIAS=$KEY_ALIAS" >> $GITHUB_ENV
 
       # ── Build signed release APK ──────────────────────────────
       # The env var names below MUST match what app/build.gradle.kts reads in
@@ -38,7 +47,7 @@ jobs:
         env:
           KEYSTORE_PATH:     ${{ env.KEYSTORE_PATH }}
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
-          KEY_ALIAS:         ${{ secrets.KEY_ALIAS }}
+          KEY_ALIAS:         ${{ env.KEY_ALIAS }}
           KEY_PASSWORD:      ${{ secrets.KEY_PASSWORD }}
         run: ./gradlew :app:assembleRelease --no-daemon
 
