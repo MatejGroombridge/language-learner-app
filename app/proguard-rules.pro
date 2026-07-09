@@ -9,10 +9,10 @@
     kotlinx.serialization.KSerializer serializer(...);
 }
 
--keep,includedescriptorclasses class dev.matejgroombridge.argot.**$$serializer { *; }
--keepclassmembers class dev.matejgroombridge.argot.** {
+-keep,includedescriptorclasses class dev.matejgroombridge.triolingo.**$$serializer { *; }
+-keepclassmembers class dev.matejgroombridge.triolingo.** {
     *** Companion;
 }
--keepclasseswithmembers class dev.matejgroombridge.argot.** {
+-keepclasseswithmembers class dev.matejgroombridge.triolingo.** {
     kotlinx.serialization.KSerializer serializer(...);
 }

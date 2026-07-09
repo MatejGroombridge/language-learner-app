@@ -1,7 +1,7 @@
-# Argot — Liúlì 流利
+# Triolingo
 
-A speaking-first Mandarin trainer: a full Android port of the Liúlì web app
-(`Argot_Web/`). No accounts, no backend — the SM-2-lite spaced-repetition
+A speaking-first Mandarin trainer: a full Android port of the Triolingo web app
+(`Triolingo_Web/`). No accounts, no backend — the SM-2-lite spaced-repetition
 engine, session builder, six exercise types (intro, meaning, translation,
 listening, speaking, tones), and streak/XP/combo gamification all run
 on-device, with progress persisted locally.
@@ -11,7 +11,7 @@ on-device, with progress persisted locally.
 - **Speaking exercises**: on-device speech recognition (zh-CN) scores your
   pronunciation; falls back to honest self-grading where unavailable.
 - **Curriculum**: 196 words & phrases across 12 units in
-  `app/src/main/java/dev/matejgroombridge/argot/data/Vocab.kt`, generated from
+  `app/src/main/java/dev/matejgroombridge/triolingo/data/Vocab.kt`, generated from
   the web app's `js/data.js`.
 
 Part of the personal Android app suite, distributed via
