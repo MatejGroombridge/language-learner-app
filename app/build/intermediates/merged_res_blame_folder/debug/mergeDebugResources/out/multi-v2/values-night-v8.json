@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "dev.matejgroombridge.argot.app-mergeDebugResources-52:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\matej\\Documents\\Code\\argot\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "1,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "63,288",
+                        "endLines": "4,11",
+                        "endColumns": "12,12",
+                        "endOffsets": "282,690"
+                    },
+                    "to": {
+                        "startLines": "4,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "238,462",
+                        "endLines": "7,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "457,862"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\matej\\.gradle\\caches\\9.0.0\\transforms\\9fd30478bbf940be87be951aaea0ea15\\transformed\\core-splashscreen-1.0.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "85",
+                        "endOffsets": "136"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "152",
+                        "endColumns": "85",
+                        "endOffsets": "233"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\matej\\Documents\\Code\\argot\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "120",
+                        "endColumns": "51",
+                        "endOffsets": "167"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "51",
+                        "endOffsets": "147"
+                    }
+                }
+            ]
+        }
+    ]
+}
