@@ -1,5 +1,10 @@
 # Changelog
 
+
+## v1.0.0 — 2026-07-09
+
+Initial functionality & design
+
 All notable changes to Argot. Format roughly follows
 [Keep a Changelog](https://keepachangelog.com). The most recent release is at
 the top. Each entry is consumed verbatim by the release pipeline and shown to
