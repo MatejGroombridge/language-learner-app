@@ -1,6 +1,11 @@
 # Changelog
 
 
+## v1.1.0 — 2026-07-10
+
+Renamed to Triolingo
+
+
 ## v1.0.12 — 2026-07-09
 
 uypdated alias
